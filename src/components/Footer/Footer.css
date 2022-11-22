@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+svg{
+    margin: 0 5px 20px 5px;
+}

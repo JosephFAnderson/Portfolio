@@ -4,6 +4,7 @@ import Home from './Homes/Home';
 import Project from './Projects/Project';
 import ContactMe from './ContactMe/ContactMe';
 import AboutMe from './AboutMe/AboutMe'
+import Footer from './Footer/Footer'
 import { Route, Routes } from 'react-router-dom';
 
 function Layout() {
@@ -16,6 +17,7 @@ function Layout() {
                 <Route path='/projects' element={<Project />} />
                 <Route path='/contact-me' element={<ContactMe />} />
             </Routes>
+            <Footer />
         </>
     )
 }
