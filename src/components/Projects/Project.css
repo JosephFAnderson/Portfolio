@@ -1,0 +1,40 @@
+#projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    position: relative;
+    width: 35%;
+    margin: 10px;
+  }
+  
+.project-image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.project-text {
+    transition: .5s ease;
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .project-card:hover .project-image {
+    opacity: 0.3;
+  }
+  
+  .project-card:hover .project-text {
+    opacity: 1;
+  }
