@@ -1,0 +1,20 @@
+.aboutMe-container{
+    font-size: 1.5em;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
+}
+
+.skills-label{
+    text-align: center;
+}
+
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.skill{
+    width: 30%;
+}

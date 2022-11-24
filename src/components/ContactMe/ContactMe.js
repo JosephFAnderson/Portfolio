@@ -45,10 +45,11 @@ const ContactMe = () => {
 
   return (
     <div id="contact-form">
+        <p style={{fontSize: "1.5em"}}>Send me an email</p>
         <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} />
         <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} />
         <textarea placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-        <button onClick={submit}>Send Message</button>
+        <button className="formBtn" onClick={submit}>Send Message</button>
         <span className={emailSent ? 'visible' : null}>Thank you for your message, I will be in touch as soon as possible!</span>
     </div>
     );
