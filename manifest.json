@@ -1,0 +1,20 @@
+{
+  "short_name": "Portfolio",
+  "name": "Joseph Anderson's portfolio",
+  "icons": [
+    {
+      "src": "GitHub-Mark-64px.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "GitHub-Mark-Light-64px.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
