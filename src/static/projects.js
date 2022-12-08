@@ -8,6 +8,14 @@ const projects = [
         image: "./rpgthegame.png"
     },
     {
+        name: "Master Scrolls",
+        description: "A tool for tabletop rpg game masters to help with campaign organization. Allowing creation of non player characters and grouping by the location they are from in game.",
+        technologies: "React, GraphQL, MongoDB, JavaScript, Express.js",
+        url: "https://masterscrolls.herokuapp.com/",
+        github: "https://github.com/JosephFAnderson/masterScrolls",
+        image: "./masterscrolls.png"
+    },
+    {
         name: "Tech Blog",
         description: "A blog post forum for users to create post about a topic, that other users can comment on.",
         technologies: "Handlesbars, JavaScript, MySQL, Express.js",
