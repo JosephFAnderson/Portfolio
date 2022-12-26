@@ -1,4 +1,3 @@
-import './Layout.css'
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import Project from './Projects/Project';

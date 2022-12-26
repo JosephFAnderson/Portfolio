@@ -13,5 +13,5 @@ html, body, #root{
 
 body{
     margin: 0;
-    background-color: #427AA1;
+    background-image: linear-gradient(to right, rgb(28, 163, 216) , rgb(107, 219, 195));
 }

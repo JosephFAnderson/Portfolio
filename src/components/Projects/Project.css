@@ -45,7 +45,7 @@
 }
   
   .project-card:hover .project-image {
-    opacity: 0.2;
+    opacity: .1;
   }
   
   .project-card:hover .project-text {
